@@ -1,0 +1,91 @@
+########################
+#### Recently Added ####
+########################
+
+Subject: <b>({server_name})</b> | Cambios en las bibliotecas
+Message body:
+
+<movie>{timestamp} - {datestamp}
+<b>NUEVA PELÍCULA AÑADIDA</b>
+
+🎬  <b>Título:</b> <i>{title} ({year}) - {content_rating}</i>
+🏢  <b>Estudio:</b> <i>{studio}</i>
+👷🏻  <b>Director:</b> <i>{directors}</i>
+👫  <b>Actores:</b> <i>{actors:[1:5]}</i>
+🕓  <b>Duración:</b> <i>{duration} minutos</i>
+🎭  <b>Género:</b> <i>{genres}</i>
+⚙️  <b>Formato archivo:</b><i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Enlace a IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
+🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>SINOPSIS:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+</movie>
+
+<episode>{timestamp} - {datestamp}
+<b>NUEVO CAPÍTULO AÑADIDO</b>
+
+📺  <b>Título de serie:</b> <i>{show_name} ({year})</i>
+🔢  <b>Episodio:</b> <i>{season_num}x{episode_num00} - "{episode_name}"</i>
+🕓  <b>Duración:</b> <i>{duration} minutos</i>
+🎭  <b>Género:</b> <i>{genres}</i>
+⚙️  <b>Formato archivo:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Enlace a TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>SINOPSIS:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+</episode>
+
+<show>{timestamp} - {datestamp}
+<b>NUEVA SERIE AÑADIDA</b> 
+
+📺  <b>Título de serie:</b> <i>{show_name} ({year})</i>
+🏢  <b>Estudio:</b> <i>{studio}</i>
+👷🏻  <b>Director:</b> <i>{directors}</i>
+👫  <b>Actores:</b> <i>{actors:[1:5]}</i>
+🎭  <b>Género:</b> <i>{genres}</i>
+🔗  <b>Enlace a TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>SINOPSIS:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+</show>
+
+<season>{timestamp} - {datestamp}
+<b>NUEVA TEMPORADA AÑADIDA</b> 
+
+📺  <b>Título de serie:</b> <i>{show_name} ({year})</i>
+📺  <b>Temporada:</b> <i>{season_num}</i>
+🏢  <b>Estudio:</b> <i>{studio}</i>
+👷🏻  <b>Director:</b> <i>{directors}</i>
+👫  <b>Actores:</b> <i>{actors:[1:5]}</i>
+🎭  <b>Género:</b> <i>{genres}</i>
+⚙️  <b>Formato archivo:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Enlace a TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>SINOPSIS:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+</season>
+
+<album>{timestamp} - {datestamp}
+<b>NUEVO ALBUM AÑADIDO</b>
+
+🎤  <b>Grupo:</b> <i>{artist_name}</i>
+🎹  <b>Álbum:</b> <i>{album_name}</i>
+🎼  <b>Canciones:</b> <i>{track_count}</i>
+📅  <b>Año:</b> {year} | <i>{rating}</i>
+🎭  <b>Género:</b> <i>{genres}</i>
+🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+<a href="{poster_url}">&nbsp;</a>
+</album>
+#added
+
+########################
+#### Recently Added ####
+########################
