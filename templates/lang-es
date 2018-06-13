@@ -1,1 +1,128 @@
-## Spanish template
+########################
+#### Playback Start ####
+########################
+
+Subject: <b>({server_name})</b> | Reproducción iniciada
+Message body:
+
+<movie>{timestamp} - {datestamp} | Película
+
+  <b>{username}</b> está viendo <b>{title} ({year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Calidad:</b> <i>{quality_profile}</i>
+  <b>Simultáneo:</b> <i>{user_streams}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Hace:</b> <i>{transcode_decision}</i>
+  <b>Vídeo:</b> <i>{video_decision}</i>
+  <b>Audio:</b> <i>{audio_decision}</i>
+  <b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</movie>
+
+<episode>{timestamp} - {datestamp} | Serie
+
+  <b>{username}</b> está viendo <b>{show_name} ({year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Título:</b> <i>{episode_name}</i>
+  <b>Capítulo:</b> <i>T{season_num}E{episode_num00}</i>
+
+  <b>Calidad:</b> <i>{quality_profile}</i>
+  <b>Simultáneo:</b> <i>{user_streams}</i> 
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Hace:</b> <i>{transcode_decision}</i> 
+  <b>Vídeo:</b> <i>{video_decision}</i>
+  <b>Audio:</b> <i>{audio_decision}</i>
+  <b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</episode>
+#start
+
+############################
+#### End Playback Start ####
+############################
+
+--------------------------------------------------------------------
+
+#######################
+#### Playback Stop ####
+#######################
+
+Subject: <b>({server_name})</b> | Reproducción detenida
+Message body:
+
+<movie>{timestamp} - {datestamp} | Película
+
+	<b>{username}</b> ha detenido <b>{title} ({year})</b>.
+
+	<b>Dispositivo:</b> <i>{device}</i>
+	<b>Plataforma:</b> <i>{platform}</i>
+	<b>Hace:</b> <i>{transcode_decision}</i> 
+	<b>Vídeo:</b> <i>{video_decision}</i>
+	<b>Audio:</b> <i>{audio_decision}</i>
+	<b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</movie>
+
+<episode>{timestamp} - {datestamp} | Serie
+
+	<b>{username}</b> ha detenido <b>{show_name} ({year})</b>.
+
+	<b>Capítulo:</b> <i>T{season_num}E{episode_num00}</i>
+	<b>Título:</b> <i>{episode_name}</i>
+	<b>Dispositivo:</b> <i>{device}</i>
+	<b>Plataforma:</b> <i>{platform}</i>
+	<b>Hace:</b> <i>{transcode_decision}</i> 
+	<b>Vídeo:</b> <i>{video_decision}</i>
+	<b>Audio:</b> <i>{audio_decision}</i>
+	<b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</episode>
+#stop
+
+###########################
+#### End Playback Stop ####
+###########################
+
+--------------------------------------------------------------------
+
+Subject: <b>({server_name})</b> | Reproducción resumida
+Message body:
+
+#########################
+#### Playback Resume ####
+#########################
+
+<movie>{timestamp} - {datestamp} | Película
+
+	<b>{username}</b> vuelve con <b>{title} ({year})</b>.
+
+	<b>Dispositivo:</b> <i>{device}</i>
+	<b>Plataforma:</b> <i>{platform}</i>
+	<b>Hace:</b> <i>{transcode_decision}</i> 
+	<b>Vídeo:</b> <i>{video_decision}</i>
+	<b>Audio:</b> <i>{audio_decision}</i>
+	<b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</movie>
+
+<episode>{timestamp} - {datestamp} | Serie
+
+	<b>{username}</b> vuelve con <b>{show_name} ({year})</b>.
+
+	<b>Capítulo:</b> <i>T{season_num}E{episode_num00}</i>
+	<b>Título:</b> <i>{episode_name}</i>
+	<b>Dispositivo:</b> <i>{device}</i>
+	<b>Plataforma:</b> <i>{platform}</i>
+	<b>Hace:</b> <i>{transcode_decision}</i> 
+	<b>Vídeo:</b> <i>{video_decision}</i>
+	<b>Audio:</b> <i>{audio_decision}</i>
+	<b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</episode>
+#resume
+
+#############################
+#### End Playback Resume ####
+#############################
+
+--------------------------------------------------------------------
