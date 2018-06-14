@@ -18,11 +18,11 @@ Check all the available templates [here](templates).
 ## Spanish templates
 
 * [Playback start | Empezar a reproducir](templates/es/playback-start-es)
-* [Playback stop | Detener por completo reproducción](templates/playback-stop-es)
-* [Playback pause | Pausar reproducción](templates/playback-pause-es)
-* [Playback resume | Volver con la reproduccion](templates/playback-resume-es)
-* [Watched | Reproducción finalizada](templates/watched-es)
-* [Recently added | Añadido recientemente](templates/recently-added-es)
+* [Playback stop | Detener por completo reproducción](templates/es/playback-stop-es)
+* [Playback pause | Pausar reproducción](templates/es/playback-pause-es)
+* [Playback resume | Volver con la reproduccion](templates/es/playback-resume-es)
+* [Watched | Reproducción finalizada](templates/es/watched-es)
+* [Recently added | Añadido recientemente](templates/es/recently-added-es)
 
 ## English templates
 
