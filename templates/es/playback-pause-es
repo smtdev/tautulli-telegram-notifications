@@ -1,10 +1,6 @@
-########################
-#### Playback Pause ####
-########################
-
-Subject: <b>({server_name})</b> | Reproducción pausada
-Message body:
-
+################################################################
+### Subject -> <b>({server_name})</b> | Reproducción pausada ###
+################################################################
 <movie>{timestamp} - {datestamp} | Película
 
 	<b>{username}</b> ha pausado <b>{title} ({year})</b>.
@@ -16,10 +12,9 @@ Message body:
 	<b>Audio:</b> <i>{audio_decision}</i>
 	<b>Resolución:</b> <i>{stream_video_resolution}p</i>
 </movie>
-
 <episode>{timestamp} - {datestamp} | Serie
 
-	<b>{username}</b> ha pausado <b>{show_name} ({year})</b>.
+	<b>{username}</b> ha pausado <b>{show_name} ({show_year})</b>.
 
 	<b>Capítulo:</b> <i>T{season_num}E{episode_num00}</i>
 	<b>Título:</b> <i>{episode_name}</i>
@@ -30,8 +25,3 @@ Message body:
 	<b>Audio:</b> <i>{audio_decision}</i>
 	<b>Resolución:</b> <i>{stream_video_resolution}p</i>
 </episode>
-#pause
-
-############################
-#### End Playback Pause ####
-############################
