@@ -1,10 +1,6 @@
-########################
-#### Recently Added ####
-########################
-
-Subject: <b>({server_name})</b> | Cambios en las bibliotecas
-Message body:
-
+######################################################################
+### Subject -> <b>({server_name})</b> | Cambios en las bibliotecas ###
+######################################################################
 <movie>{timestamp} - {datestamp}
 <b>NUEVA PELÍCULA AÑADIDA</b>
 
@@ -20,13 +16,12 @@ Message body:
 
 <b>SINOPSIS:</b>
 <b>★ {rating} | </b><i>{summary}</i>
-<a href="{poster_url}">&nbsp;</a>
+<a href="{poster_url}"></a>
 </movie>
-
 <episode>{timestamp} - {datestamp}
 <b>NUEVO CAPÍTULO AÑADIDO</b>
 
-📺  <b>Título de serie:</b> <i>{show_name} ({year})</i>
+📺  <b>Título de serie:</b> <i>{show_name} ({show_year})</i>
 🔢  <b>Episodio:</b> <i>{season_num}x{episode_num00} - "{episode_name}"</i>
 🕓  <b>Duración:</b> <i>{duration} minutos</i>
 🎭  <b>Género:</b> <i>{genres}</i>
@@ -36,13 +31,12 @@ Message body:
 
 <b>SINOPSIS:</b>
 <b>★ {rating} | </b><i>{summary}</i>
-<a href="{poster_url}">&nbsp;</a>
+<a href="{poster_url}"></a>
 </episode>
-
 <show>{timestamp} - {datestamp}
 <b>NUEVA SERIE AÑADIDA</b> 
 
-📺  <b>Título de serie:</b> <i>{show_name} ({year})</i>
+📺  <b>Título de serie:</b> <i>{show_name} ({show_year})</i>
 🏢  <b>Estudio:</b> <i>{studio}</i>
 👷🏻  <b>Director:</b> <i>{directors}</i>
 👫  <b>Actores:</b> <i>{actors:[1:5]}</i>
@@ -52,13 +46,12 @@ Message body:
 
 <b>SINOPSIS:</b>
 <b>★ {rating} | </b><i>{summary}</i>
-<a href="{poster_url}">&nbsp;</a>
+<a href="{poster_url}"></a>
 </show>
-
 <season>{timestamp} - {datestamp}
 <b>NUEVA TEMPORADA AÑADIDA</b> 
 
-📺  <b>Título de serie:</b> <i>{show_name} ({year})</i>
+📺  <b>Título de serie:</b> <i>{show_name} ({show_year})</i>
 📺  <b>Temporada:</b> <i>{season_num}</i>
 🏢  <b>Estudio:</b> <i>{studio}</i>
 👷🏻  <b>Director:</b> <i>{directors}</i>
@@ -70,9 +63,8 @@ Message body:
 
 <b>SINOPSIS:</b>
 <b>★ {rating} | </b><i>{summary}</i>
-<a href="{poster_url}">&nbsp;</a>
+<a href="{poster_url}"></a>
 </season>
-
 <album>{timestamp} - {datestamp}
 <b>NUEVO ALBUM AÑADIDO</b>
 
@@ -82,10 +74,5 @@ Message body:
 📅  <b>Año:</b> {year} | <i>{rating}</i>
 🎭  <b>Género:</b> <i>{genres}</i>
 🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
-<a href="{poster_url}">&nbsp;</a>
+<a href="{poster_url}"></a>
 </album>
-#added
-
-########################
-#### Recently Added ####
-########################
