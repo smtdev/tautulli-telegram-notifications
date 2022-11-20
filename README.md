@@ -17,13 +17,18 @@ Check all the available templates [here](templates).
 
 ## Spanish templates
 
-* [Playback start | Empezar a reproducir](templates/es/playback-start-es)
-* [Playback stop | Detener por completo reproducción](templates/es/playback-stop-es)
-* [Playback pause | Pausar reproducción](templates/es/playback-pause-es)
-* [Playback resume | Volver con la reproduccion](templates/es/playback-resume-es)
-* [Watched | Reproducción finalizada](templates/es/watched-es)
-* [Recently added | Añadido recientemente](templates/es/recently-added-es)
+* [Empezar a reproducir](templates/es/playback-start-es)
+* [Detener por completo reproducción](templates/es/playback-stop-es)
+* [Pausar reproducción](templates/es/playback-pause-es)
+* [Volver con la reproduccion](templates/es/playback-resume-es)
+* [Reproducción finalizada](templates/es/watched-es)
+* [Añadido recientemente](templates/es/recently-added-es)
 
 ## English templates
 
-_soon_
+* [Playback start](templates/en/playback-start-en)
+* [Playback stop](templates/en/playback-stop-en)
+* [Playback pause](templates/en/playback-pause-en)
+* [Playback resume](templates/en/playback-resume-en)
+* [Watched](templates/en/watched-en)
+* [Recently added](templates/en/recently-added-en)
