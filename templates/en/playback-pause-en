@@ -1,0 +1,27 @@
+###########################################################
+### Subject -> <b>({server_name})</b> | Playback paused ###
+###########################################################
+<movie>{timestamp} - {datestamp} | Movie
+
+	<b>{username}</b> paused <b>{title} ({year})</b>.
+
+	<b>Device:</b> <i>{device}</i>
+	<b>Platform:</b> <i>{platform}</i>
+	<b>Transcode:</b> <i>{transcode_decision}</i> 
+	<b>Video:</b> <i>{video_decision}</i>
+	<b>Audio:</b> <i>{audio_decision}</i>
+	<b>Video resolution:</b> <i>{stream_video_resolution}p</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Show
+
+	<b>{username}</b> ha pausado <b>{show_name} ({show_year})</b>.
+
+	<b>Episode:</b> <i>S{season_num}E{episode_num00}</i>
+	<b>Episode title:</b> <i>{episode_name}</i>
+	<b>Device:</b> <i>{device}</i>
+	<b>Platform:</b> <i>{platform}</i>
+	<b>Transcode:</b> <i>{transcode_decision}</i> 
+	<b>Video:</b> <i>{video_decision}</i>
+	<b>Audio:</b> <i>{audio_decision}</i>
+	<b>Video resolution:</b> <i>{stream_video_resolution}p</i>
+</episode>

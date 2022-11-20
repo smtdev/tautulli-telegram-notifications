@@ -1,0 +1,82 @@
+############################################################
+### Subject -> <b>({server_name})</b> | Library updated! ###
+############################################################
+<movie>{timestamp} - {datestamp}
+<b>A new film has been added.</b>
+
+🎬  <b>Title:</b> <i>{title} ({year}) - {content_rating}</i>
+🏢  <b>Studio:</b> <i>{studio}</i>
+👷🏻  <b>Directors:</b> <i>{directors}</i>
+👫  <b>Actors:</b> <i>{actors:[1:5]}</i>
+🕓  <b>Movie length:</b> <i>{duration} minutes</i>
+🎭  <b>Genres:</b> <i>{genres}</i>
+⚙️  <b>Video resolution:</b><i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
+🔗  <b>Link to TMDb:</b> <a href="{themoviedb_url}">{themoviedb_url}</a>
+🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>Synopsis:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}"></a>
+</movie>
+<episode>{timestamp} - {datestamp}
+<b>A new episode of {show_name} ({show_year}) has been added.</b>
+
+📺  <b>Title:</b> <i>{show_name} ({show_year})</i>
+🔢  <b>Episode:</b> <i>S{season_num}E{episode_num00} - "{episode_name}"</i>
+🕓  <b>Episode length:</b> <i>{duration} minutes</i>
+🎭  <b>Genres:</b> <i>{genres}</i>
+⚙️  <b>Video resolution:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
+🔗  <b>Link to TVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>Synopsis:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}"></a>
+</episode>
+<show>{timestamp} - {datestamp}
+<b>A new show has been added.</b> 
+
+📺  <b>Title:</b> <i>{show_name} ({show_year})</i>
+🏢  <b>Studio:</b> <i>{studio}</i>
+👷🏻  <b>Directors:</b> <i>{directors}</i>
+👫  <b>Actors:</b> <i>{actors:[1:5]}</i>
+🎭  <b>Genres:</b> <i>{genres}</i>
+🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
+🔗  <b>Link to TVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>Synopsis:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}"></a>
+</show>
+<season>{timestamp} - {datestamp}
+<b>A new season of {show_name} ({show_year}) has been added.</b> 
+
+📺  <b>Show title:</b> <i>{show_name} ({show_year})</i>
+📺  <b>Season number:</b> <i>{season_num}</i>
+🏢  <b>Studio:</b> <i>{studio}</i>
+👷🏻  <b>Directors:</b> <i>{directors}</i>
+👫  <b>Actors:</b> <i>{actors:[1:5]}</i>
+🎭  <b>Genres:</b> <i>{genres}</i>
+⚙️  <b>Video resolution:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
+🔗  <b>Link to TVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
+
+<b>Synopsis:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}"></a>
+</season>
+<album>{timestamp} - {datestamp}
+<b>A new music album has been added.</b>
+
+🎤  <b>Artist name:</b> <i>{artist_name}</i>
+🎹  <b>Album name:</b> <i>{album_name}</i>
+🎼  <b>Tracks:</b> <i>{track_count}</i>
+📅  <b>Year:</b> {year} | <i>{rating}</i>
+🎭  <b>Genres:</b> <i>{genres}</i>
+🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
+<a href="{poster_url}"></a>
+</album>
