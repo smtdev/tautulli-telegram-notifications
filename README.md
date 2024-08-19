@@ -8,7 +8,7 @@ First of all, you need to get some easy Telegram info:
 
 Once you get them, fill in the blur fields:
 
-![Telegram bots setup](resources/tautulli-telegram-setup.jpg?raw=True)
+![Telegram bots setup](resources/tautulli-telegram-setup.jpg)
 
 Select what you want to receive in your Telegram channel using the **Trigger** tab and then fill in the options in **Text** tab.
 
