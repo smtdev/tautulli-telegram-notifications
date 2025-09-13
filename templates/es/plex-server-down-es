@@ -1,0 +1,14 @@
+#####################################################
+### Subject -> <b>({server_name})</b> | Servidor Plex caído ###
+#####################################################
+{timestamp} - {datestamp}
+
+  🔴 <b>¡SERVIDOR PLEX CAÍDO!</b> 🔴
+
+  El servidor Plex <b>{server_name}</b> no responde.
+
+  <b>Estado:</b> <i>Inaccesible internamente</i>
+  <b>Dirección del servidor:</b> <i>{server_machine_id}</i>
+  <b>Última conexión exitosa:</b> <i>{server_response_time}</i>
+  
+  Por favor, verifica la conectividad y el estado del servidor.

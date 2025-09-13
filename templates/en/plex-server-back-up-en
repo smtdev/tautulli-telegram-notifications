@@ -1,0 +1,14 @@
+####################################################
+### Subject -> <b>({server_name})</b> | Plex server back up ###
+####################################################
+{timestamp} - {datestamp}
+
+  🟢 <b>PLEX SERVER BACK UP!</b> 🟢
+
+  Plex server <b>{server_name}</b> is working correctly.
+
+  <b>Status:</b> <i>Reachable internally</i>
+  <b>Downtime:</b> <i>{server_response_time}</i>
+  <b>Server address:</b> <i>{server_machine_id}</i>
+  
+  The server is back online and accepting connections.

@@ -1,0 +1,34 @@
+#############################################################
+### Subject -> <b>({server_name})</b> | Error de reproducción ###
+#############################################################
+<movie>{timestamp} - {datestamp} | Película
+
+  ❌ <b>Error de reproducción</b> ❌
+
+  <b>{username}</b> ha experimentado un error reproduciendo <b>{title} ({year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Cliente:</b> <i>{player}</i>
+  <b>Dirección IP:</b> <i>{ip_address}</i>
+  <b>Calidad solicitada:</b> <i>{quality_profile}</i>
+  <b>Transcodificación:</b> <i>{transcode_decision}</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Serie
+
+  ❌ <b>Error de reproducción</b> ❌
+
+  <b>{username}</b> ha experimentado un error reproduciendo <b>{show_name} ({show_year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episodio:</b> <i>T{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Cliente:</b> <i>{player}</i>
+  <b>Dirección IP:</b> <i>{ip_address}</i>
+  <b>Calidad solicitada:</b> <i>{quality_profile}</i>
+  <b>Transcodificación:</b> <i>{transcode_decision}</i>
+</episode>

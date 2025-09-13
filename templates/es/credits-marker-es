@@ -1,0 +1,30 @@
+##########################################################
+### Subject -> <b>({server_name})</b> | Marcador de créditos ###
+##########################################################
+<movie>{timestamp} - {datestamp} | Película
+
+  🎭 <b>Créditos detectados</b> 🎭
+
+  <b>{username}</b> ha llegado al marcador de créditos en <b>{title} ({year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Tiempo del marcador:</b> <i>{credits_start} - {credits_end}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Progreso actual:</b> <i>{progress_percent}%</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Serie
+
+  🎭 <b>Créditos detectados</b> 🎭
+
+  <b>{username}</b> ha llegado al marcador de créditos en <b>{show_name} ({show_year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episodio:</b> <i>T{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Tiempo del marcador:</b> <i>{credits_start} - {credits_end}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Progreso actual:</b> <i>{progress_percent}%</i>
+</episode>

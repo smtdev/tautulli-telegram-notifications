@@ -1,0 +1,14 @@
+################################################################
+### Subject -> <b>({server_name})</b> | Acceso remoto Plex caído ###
+################################################################
+{timestamp} - {datestamp}
+
+  🔴 <b>¡ACCESO REMOTO PLEX CAÍDO!</b> 🔴
+
+  El acceso remoto del servidor Plex <b>{server_name}</b> no está disponible.
+
+  <b>Estado:</b> <i>Inaccesible externamente</i>
+  <b>Dirección del servidor:</b> <i>{server_machine_id}</i>
+  <b>Puerto público:</b> <i>{server_public_port}</i>
+  
+  Los usuarios remotos no pueden acceder al servidor Plex.

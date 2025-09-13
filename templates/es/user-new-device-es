@@ -1,0 +1,17 @@
+############################################################
+### Subject -> <b>({server_name})</b> | Nuevo dispositivo detectado ###
+############################################################
+{timestamp} - {datestamp}
+
+  📱 <b>Nuevo dispositivo detectado</b> 📱
+
+  <b>{username}</b> está reproduciendo desde un nuevo dispositivo.
+
+  <b>Nuevo dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Cliente:</b> <i>{player}</i>
+  <b>Dirección IP:</b> <i>{ip_address}</i>
+  <b>Localización:</b> <i>{location}</i>
+  
+  <b>Contenido reproducido:</b>
+  <i>{title} {show_name}</i>

@@ -1,0 +1,19 @@
+###################################################################
+### Subject -> <b>({server_name})</b> | Actualización Tautulli disponible ###
+###################################################################
+{timestamp} - {datestamp}
+
+  🆕 <b>¡ACTUALIZACIÓN DE TAUTULLI DISPONIBLE!</b> 🆕
+
+  Hay una nueva versión de Tautulli disponible.
+
+  <b>Versión actual:</b> <i>{tautulli_version}</i>
+  <b>Nueva versión:</b> <i>{tautulli_update_version}</i>
+  <b>Servidor:</b> <i>{server_name}</i>
+  
+  <b>Cambios destacados:</b>
+  <i>{tautulli_update_release_notes}</i>
+  
+  <b>Enlace de descarga:</b> <a href="{tautulli_download_url}">Descargar actualización</a>
+  
+  Se recomienda actualizar para obtener las últimas funciones y correcciones.

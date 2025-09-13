@@ -1,0 +1,17 @@
+#################################################################
+### Subject -> <b>({server_name})</b> | User concurrent streams ###
+#################################################################
+{timestamp} - {datestamp}
+
+  ⚠️ <b>Concurrent stream limit exceeded</b> ⚠️
+
+  <b>{username}</b> has exceeded the concurrent stream limit.
+
+  <b>Current streams:</b> <i>{user_streams}</i>
+  <b>Allowed limit:</b> <i>{concurrent_stream_limit}</i>
+  <b>Latest device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>IP Address:</b> <i>{ip_address}</i>
+  
+  <b>Attempted content:</b>
+  <i>{title} {show_name}</i>

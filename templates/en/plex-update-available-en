@@ -1,0 +1,18 @@
+#######################################################
+### Subject -> <b>({server_name})</b> | Plex update available ###
+#######################################################
+{timestamp} - {datestamp}
+
+  🆕 <b>PLEX UPDATE AVAILABLE!</b> 🆕
+
+  A new version of Plex Media Server is available.
+
+  <b>Current version:</b> <i>{server_version}</i>
+  <b>New version:</b> <i>{update_version}</i>
+  <b>Server:</b> <i>{server_name}</i>
+  <b>Platform:</b> <i>{server_platform}</i>
+  
+  <b>Release notes:</b>
+  <i>{update_release_notes}</i>
+  
+  It's recommended to update for the latest features and fixes.

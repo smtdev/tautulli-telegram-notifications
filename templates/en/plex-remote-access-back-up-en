@@ -1,0 +1,15 @@
+############################################################
+### Subject -> <b>({server_name})</b> | Plex remote access back up ###
+############################################################
+{timestamp} - {datestamp}
+
+  🟢 <b>PLEX REMOTE ACCESS BACK UP!</b> 🟢
+
+  Remote access for Plex server <b>{server_name}</b> is working.
+
+  <b>Status:</b> <i>Reachable externally</i>
+  <b>Downtime:</b> <i>{server_response_time}</i>
+  <b>Server address:</b> <i>{server_machine_id}</i>
+  <b>Public port:</b> <i>{server_public_port}</i>
+  
+  Remote users can access the Plex server again.

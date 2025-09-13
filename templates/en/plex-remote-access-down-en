@@ -1,0 +1,14 @@
+##########################################################
+### Subject -> <b>({server_name})</b> | Plex remote access down ###
+##########################################################
+{timestamp} - {datestamp}
+
+  🔴 <b>PLEX REMOTE ACCESS DOWN!</b> 🔴
+
+  Remote access for Plex server <b>{server_name}</b> is not available.
+
+  <b>Status:</b> <i>Unreachable externally</i>
+  <b>Server address:</b> <i>{server_machine_id}</i>
+  <b>Public port:</b> <i>{server_public_port}</i>
+  
+  Remote users cannot access the Plex server.

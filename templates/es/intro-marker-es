@@ -1,0 +1,30 @@
+##########################################################
+### Subject -> <b>({server_name})</b> | Marcador de introducción ###
+##########################################################
+<movie>{timestamp} - {datestamp} | Película
+
+  🎬 <b>Introducción detectada</b> 🎬
+
+  <b>{username}</b> ha llegado al marcador de introducción en <b>{title} ({year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Tiempo del marcador:</b> <i>{intro_start} - {intro_end}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Progreso actual:</b> <i>{progress_percent}%</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Serie
+
+  🎬 <b>Introducción detectada</b> 🎬
+
+  <b>{username}</b> ha llegado al marcador de introducción en <b>{show_name} ({show_year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episodio:</b> <i>T{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Tiempo del marcador:</b> <i>{intro_start} - {intro_end}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Progreso actual:</b> <i>{progress_percent}%</i>
+</episode>

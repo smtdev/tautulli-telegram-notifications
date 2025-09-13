@@ -1,0 +1,38 @@
+############################################################################
+### Subject -> <b>({server_name})</b> | Cambio de decisión de transcodificación ###
+############################################################################
+<movie>{timestamp} - {datestamp} | Película
+
+  🔄 <b>Cambio de transcodificación</b> 🔄
+
+  <b>{username}</b> ha cambiado la transcodificación en <b>{title} ({year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Transcodificación anterior:</b> <i>{transcode_decision}</i>
+  <b>Nueva transcodificación:</b> <i>{transcode_decision_new}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Calidad:</b> <i>{quality_profile}</i>
+  <b>Vídeo:</b> <i>{video_decision}</i>
+  <b>Audio:</b> <i>{audio_decision}</i>
+  <b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Serie
+
+  🔄 <b>Cambio de transcodificación</b> 🔄
+
+  <b>{username}</b> ha cambiado la transcodificación en <b>{show_name} ({show_year})</b>.
+
+  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episodio:</b> <i>T{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Transcodificación anterior:</b> <i>{transcode_decision}</i>
+  <b>Nueva transcodificación:</b> <i>{transcode_decision_new}</i>
+  <b>Dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Calidad:</b> <i>{quality_profile}</i>
+  <b>Vídeo:</b> <i>{video_decision}</i>
+  <b>Audio:</b> <i>{audio_decision}</i>
+  <b>Resolución:</b> <i>{stream_video_resolution}p</i>
+</episode>

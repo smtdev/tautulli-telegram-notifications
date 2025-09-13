@@ -1,0 +1,14 @@
+##################################################
+### Subject -> <b>({server_name})</b> | Plex server down ###
+##################################################
+{timestamp} - {datestamp}
+
+  🔴 <b>PLEX SERVER DOWN!</b> 🔴
+
+  Plex server <b>{server_name}</b> is not responding.
+
+  <b>Status:</b> <i>Unreachable internally</i>
+  <b>Server address:</b> <i>{server_machine_id}</i>
+  <b>Last successful connection:</b> <i>{server_response_time}</i>
+  
+  Please check connectivity and server status.

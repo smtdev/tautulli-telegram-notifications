@@ -1,0 +1,14 @@
+###########################################################
+### Subject -> <b>({server_name})</b> | Servidor Plex restaurado ###
+###########################################################
+{timestamp} - {datestamp}
+
+  🟢 <b>¡SERVIDOR PLEX RESTAURADO!</b> 🟢
+
+  El servidor Plex <b>{server_name}</b> está funcionando correctamente.
+
+  <b>Estado:</b> <i>Accesible internamente</i>
+  <b>Tiempo de inactividad:</b> <i>{server_response_time}</i>
+  <b>Dirección del servidor:</b> <i>{server_machine_id}</i>
+  
+  El servidor ha vuelto a estar operativo y acepta conexiones.

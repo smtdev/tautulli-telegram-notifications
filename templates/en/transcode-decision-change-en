@@ -1,0 +1,38 @@
+##################################################################
+### Subject -> <b>({server_name})</b> | Transcode decision change ###
+##################################################################
+<movie>{timestamp} - {datestamp} | Movie
+
+  🔄 <b>Transcode decision changed</b> 🔄
+
+  <b>{username}</b> has changed transcode decision on <b>{title} ({year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Previous transcode:</b> <i>{transcode_decision}</i>
+  <b>New transcode:</b> <i>{transcode_decision_new}</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Quality:</b> <i>{quality_profile}</i>
+  <b>Video:</b> <i>{video_decision}</i>
+  <b>Audio:</b> <i>{audio_decision}</i>
+  <b>Resolution:</b> <i>{stream_video_resolution}p</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Show
+
+  🔄 <b>Transcode decision changed</b> 🔄
+
+  <b>{username}</b> has changed transcode decision on <b>{show_name} ({show_year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episode:</b> <i>S{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Previous transcode:</b> <i>{transcode_decision}</i>
+  <b>New transcode:</b> <i>{transcode_decision_new}</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Quality:</b> <i>{quality_profile}</i>
+  <b>Video:</b> <i>{video_decision}</i>
+  <b>Audio:</b> <i>{audio_decision}</i>
+  <b>Resolution:</b> <i>{stream_video_resolution}p</i>
+</episode>

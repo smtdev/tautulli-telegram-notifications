@@ -1,0 +1,30 @@
+######################################################
+### Subject -> <b>({server_name})</b> | Credits marker ###
+######################################################
+<movie>{timestamp} - {datestamp} | Movie
+
+  🎭 <b>Credits detected</b> 🎭
+
+  <b>{username}</b> has reached the credits marker on <b>{title} ({year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Marker time:</b> <i>{credits_start} - {credits_end}</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Current progress:</b> <i>{progress_percent}%</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Show
+
+  🎭 <b>Credits detected</b> 🎭
+
+  <b>{username}</b> has reached the credits marker on <b>{show_name} ({show_year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episode:</b> <i>S{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Marker time:</b> <i>{credits_start} - {credits_end}</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Current progress:</b> <i>{progress_percent}%</i>
+</episode>

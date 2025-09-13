@@ -1,0 +1,17 @@
+###################################################################
+### Subject -> <b>({server_name})</b> | Streams simultáneos excedidos ###
+###################################################################
+{timestamp} - {datestamp}
+
+  ⚠️ <b>Límite de streams simultáneos excedido</b> ⚠️
+
+  <b>{username}</b> ha excedido el límite de streams simultáneos.
+
+  <b>Streams actuales:</b> <i>{user_streams}</i>
+  <b>Límite permitido:</b> <i>{concurrent_stream_limit}</i>
+  <b>Último dispositivo:</b> <i>{device}</i>
+  <b>Plataforma:</b> <i>{platform}</i>
+  <b>Dirección IP:</b> <i>{ip_address}</i>
+  
+  <b>Contenido intentado:</b>
+  <i>{title} {show_name}</i>

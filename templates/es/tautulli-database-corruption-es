@@ -1,0 +1,20 @@
+######################################################################
+### Subject -> <b>({server_name})</b> | Corrupción base de datos Tautulli ###
+######################################################################
+{timestamp} - {datestamp}
+
+  ⚠️ <b>¡CORRUPCIÓN EN BASE DE DATOS TAUTULLI!</b> ⚠️
+
+  Se ha detectado corrupción en la base de datos de Tautulli.
+
+  <b>Servidor:</b> <i>{server_name}</i>
+  <b>Base de datos:</b> <i>{database_name}</i>
+  <b>Error detectado:</b> <i>{database_error}</i>
+  <b>Última copia de seguridad:</b> <i>{backup_date}</i>
+  
+  <b>Acciones recomendadas:</b>
+  • Verificar integridad de la base de datos
+  • Restaurar desde la última copia de seguridad válida
+  • Contactar al administrador del sistema
+  
+  ⚠️ <b>Los informes de Tautulli pueden no ser confiables hasta solucionar este problema.</b>

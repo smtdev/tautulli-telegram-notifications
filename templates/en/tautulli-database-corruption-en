@@ -1,0 +1,20 @@
+############################################################
+### Subject -> <b>({server_name})</b> | Tautulli database corruption ###
+############################################################
+{timestamp} - {datestamp}
+
+  ⚠️ <b>TAUTULLI DATABASE CORRUPTION!</b> ⚠️
+
+  Tautulli database corruption has been detected.
+
+  <b>Server:</b> <i>{server_name}</i>
+  <b>Database:</b> <i>{database_name}</i>
+  <b>Error detected:</b> <i>{database_error}</i>
+  <b>Last backup:</b> <i>{backup_date}</i>
+  
+  <b>Recommended actions:</b>
+  • Verify database integrity
+  • Restore from last valid backup
+  • Contact system administrator
+  
+  ⚠️ <b>Tautulli reports may not be reliable until this issue is resolved.</b>

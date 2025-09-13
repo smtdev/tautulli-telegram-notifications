@@ -1,0 +1,15 @@
+####################################################################
+### Subject -> <b>({server_name})</b> | Acceso remoto Plex restaurado ###
+####################################################################
+{timestamp} - {datestamp}
+
+  🟢 <b>¡ACCESO REMOTO PLEX RESTAURADO!</b> 🟢
+
+  El acceso remoto del servidor Plex <b>{server_name}</b> está funcionando.
+
+  <b>Estado:</b> <i>Accesible externamente</i>
+  <b>Tiempo de inactividad:</b> <i>{server_response_time}</i>
+  <b>Dirección del servidor:</b> <i>{server_machine_id}</i>
+  <b>Puerto público:</b> <i>{server_public_port}</i>
+  
+  Los usuarios remotos pueden acceder nuevamente al servidor Plex.

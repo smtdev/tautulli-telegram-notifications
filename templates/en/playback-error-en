@@ -1,0 +1,34 @@
+####################################################
+### Subject -> <b>({server_name})</b> | Playback error ###
+####################################################
+<movie>{timestamp} - {datestamp} | Movie
+
+  ❌ <b>Playback error</b> ❌
+
+  <b>{username}</b> has experienced an error playing <b>{title} ({year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Client:</b> <i>{player}</i>
+  <b>IP Address:</b> <i>{ip_address}</i>
+  <b>Requested quality:</b> <i>{quality_profile}</i>
+  <b>Transcode:</b> <i>{transcode_decision}</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Show
+
+  ❌ <b>Playback error</b> ❌
+
+  <b>{username}</b> has experienced an error playing <b>{show_name} ({show_year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episode:</b> <i>S{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Client:</b> <i>{player}</i>
+  <b>IP Address:</b> <i>{ip_address}</i>
+  <b>Requested quality:</b> <i>{quality_profile}</i>
+  <b>Transcode:</b> <i>{transcode_decision}</i>
+</episode>

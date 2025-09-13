@@ -1,0 +1,17 @@
+########################################################
+### Subject -> <b>({server_name})</b> | User new device ###
+########################################################
+{timestamp} - {datestamp}
+
+  📱 <b>New device detected</b> 📱
+
+  <b>{username}</b> is playing from a new device.
+
+  <b>New device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Client:</b> <i>{player}</i>
+  <b>IP Address:</b> <i>{ip_address}</i>
+  <b>Location:</b> <i>{location}</i>
+  
+  <b>Playing content:</b>
+  <i>{title} {show_name}</i>

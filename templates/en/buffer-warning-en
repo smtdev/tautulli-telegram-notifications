@@ -1,0 +1,36 @@
+#####################################################
+### Subject -> <b>({server_name})</b> | Buffer warning ###
+#####################################################
+<movie>{timestamp} - {datestamp} | Movie
+
+  ⚠️ <b>Buffer warning</b> ⚠️
+
+  <b>{username}</b> is experiencing buffering on <b>{title} ({year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Buffer time:</b> <i>{buffer_count} seconds</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Quality:</b> <i>{quality_profile}</i>
+  <b>Transcode:</b> <i>{transcode_decision}</i>
+  <b>Resolution:</b> <i>{stream_video_resolution}p</i>
+  <b>Bandwidth:</b> <i>{bandwidth} kbps</i>
+</movie>
+<episode>{timestamp} - {datestamp} | Show
+
+  ⚠️ <b>Buffer warning</b> ⚠️
+
+  <b>{username}</b> is experiencing buffering on <b>{show_name} ({show_year})</b>.
+
+  <b>Plex library link:</b> <a href="{plex_url}">{library_name}</a>
+
+  <b>Episode:</b> <i>S{season_num}E{episode_num00} - {episode_name}</i>
+  <b>Buffer time:</b> <i>{buffer_count} seconds</i>
+  <b>Device:</b> <i>{device}</i>
+  <b>Platform:</b> <i>{platform}</i>
+  <b>Quality:</b> <i>{quality_profile}</i>
+  <b>Transcode:</b> <i>{transcode_decision}</i>
+  <b>Resolution:</b> <i>{stream_video_resolution}p</i>
+  <b>Bandwidth:</b> <i>{bandwidth} kbps</i>
+</episode>
