@@ -21,10 +21,11 @@
 <a href="{poster_url}"></a>
 </movie>
 <episode>{timestamp} - {datestamp}
-<b>Un nuevo capítulo ha sido añadido.</b>
+<b>Un nuevo capítulo de {show_name} ({show_year}) ha sido añadido!</b>
+Temporada {season_num}, Episodio {episode_num} de {season_episode_count} - "{episode_name}".
 
 📺  <b>Título de serie:</b> <i>{show_name} ({show_year})</i>
-🔢  <b>Episodio:</b> <i>{season_num}x{episode_num00} - "{episode_name}"</i>
+🔢  <b>Episodio:</b> <i>{season_num}x{episode_num00} de {season_episode_count} - "{episode_name}"</i>
 🕓  <b>Duración:</b> <i>{duration} minutos</i>
 🎭  <b>Género:</b> <i>{genres}</i>
 ⚙️  <b>Formato archivo:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>

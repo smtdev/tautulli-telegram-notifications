@@ -20,10 +20,11 @@
 <a href="{poster_url}"></a>
 </movie>
 <episode>{timestamp} - {datestamp}
-<b>A new episode of {show_name} ({show_year}) has been added.</b>
+<b>A new episode of {show_name} ({show_year}) has been added!</b>
+Season {season_num}, Episode {episode_num} of {season_episode_count} - "{episode_name}".
 
 📺  <b>Title:</b> <i>{show_name} ({show_year})</i>
-🔢  <b>Episode:</b> <i>S{season_num}E{episode_num00} - "{episode_name}"</i>
+🔢  <b>Episode:</b> <i>S{season_num}E{episode_num00} of {season_episode_count} - "{episode_name}"</i>
 🕓  <b>Episode length:</b> <i>{duration} minutes</i>
 🎭  <b>Genres:</b> <i>{genres}</i>
 ⚙️  <b>Video resolution:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
