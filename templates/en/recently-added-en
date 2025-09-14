@@ -11,6 +11,7 @@
 🕓  <b>Movie length:</b> <i>{duration} minutes</i>
 🎭  <b>Genres:</b> <i>{genres}</i>
 ⚙️  <b>Video resolution:</b><i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Link to Trakt:</b> <a href="{trakt_url}">{trakt_url}</a>
 🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
 🔗  <b>Link to TMDb:</b> <a href="{themoviedb_url}">{themoviedb_url}</a>
 🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
@@ -27,6 +28,7 @@
 🕓  <b>Episode length:</b> <i>{duration} minutes</i>
 🎭  <b>Genres:</b> <i>{genres}</i>
 ⚙️  <b>Video resolution:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+🔗  <b>Link to Trakt:</b> <a href="{trakt_url}">{trakt_url}</a>
 🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
 🔗  <b>Link to TVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
 🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
@@ -43,6 +45,7 @@
 👷🏻  <b>Directors:</b> <i>{directors}</i>
 👫  <b>Actors:</b> <i>{actors:[1:5]}</i>
 🎭  <b>Genres:</b> <i>{genres}</i>
+🔗  <b>Link to Trakt:</b> <a href="{trakt_url}">{trakt_url}</a>
 🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
 🔗  <b>Link to TVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
 🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
@@ -62,6 +65,7 @@
 🎭  <b>Genres:</b> <i>{genres}</i>
 ⚙️  <b>Video resolution:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
 🔗  <b>Link to IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
+🔗  <b>Link to Trakt:</b> <a href="{trakt_url}">{trakt_url}</a>
 🔗  <b>Link to TVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
 🔗  <b>Link to Plex library:</b> <a href="{plex_url}">{library_name}</a>
 
