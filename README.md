@@ -1,18 +1,27 @@
 ## Tautulli notification templates, in order to inform you about any Plex library changes through a Telegram channel or group.
 
-They are both in Spanish and English. Each of them should be added in the Notification Agents settings. 
-First of all, you need to get some easy Telegram info:
+![GitHub release](https://img.shields.io/github/v/release/smtdev/tautulli-telegram-notifications)
+![GitHub last commit](https://img.shields.io/github/last-commit/smtdev/tautulli-telegram-notifications)
+![GitHub issues](https://img.shields.io/github/issues/smtdev/tautulli-telegram-notifications)
 
-* Get a new token, contacting with [@BotFather](https://telegram.me/BotFather "@BotFather Telegram bot")
-* Get a new Telegram Chat ID, Group ID, or Channel Username, contacting with [@myidbot](https://telegram.me/myidbot "@myidbot Telegram bot")
+This repository provides comprehensive notification templates for **all 22 Tautulli triggers**, available in both **Spanish (es)** and **English (en)**. These templates are designed to send rich, informative notifications to your Telegram channels, groups, or private chats whenever events occur on your Plex Media Server.
 
-Once you get them, fill in the blur fields:
+### 🚀 Quick Setup
+
+First, you need to get some basic Telegram information:
+
+* **Bot Token**: Contact [@BotFather](https://telegram.me/BotFather "@BotFather Telegram bot") to create a new bot
+* **Chat ID**: Contact [@myidbot](https://telegram.me/myidbot "@myidbot Telegram bot") to get your Chat ID, Group ID, or Channel Username
+
+Once you have them, configure your notification agent in Tautulli:
 
 ![Telegram bots setup](resources/tautulli-telegram-setup.jpg)
 
-Select what you want to receive in your Telegram channel using the **Trigger** tab and then fill in the options in **Text** tab.
+Select the events you want to monitor in the **Trigger** tab, then copy the appropriate template content into the **Text** tab.
 
-Check all the available templates [here](templates).
+### 📚 Available Templates
+
+All templates are organized by category and language. Check the complete list [here](templates).
 
 
 ## Spanish templates
@@ -84,3 +93,34 @@ Check all the available templates [here](templates).
 * [Plex update available](templates/en/plex-update-available-en)
 * [Tautulli update available](templates/en/tautulli-update-available-en)
 * [Tautulli database corruption](templates/en/tautulli-database-corruption-en)
+
+---
+
+## 🛠️ Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit improvements, bug reports, or new templates.
+
+### Template Validation
+
+Before submitting changes, run our validation script:
+```bash
+bash validate-templates.sh
+```
+
+## 📝 Template Variables
+
+Each template uses Tautulli's built-in variables. Common variables include:
+- `{username}` - Plex username
+- `{title}` - Media title  
+- `{year}` - Release year
+- `{show_name}` - TV show name
+- `{season_num}` - Season number
+- `{episode_num00}` - Episode number (zero-padded)
+- `{device}` - Playback device
+- `{platform}` - Client platform
+
+For a complete list, refer to [Tautulli's documentation](https://github.com/Tautulli/Tautulli/wiki/Custom-Notification-Text).
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
