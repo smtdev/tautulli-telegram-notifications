@@ -1,4 +1,4 @@
-#################################################################
+#############	<b>Transcodificación:</b> <i>{transcode_decision}</i>###################################################
 ### Subject -> <b>({server_name})</b> | Reproducción iniciada ###
 #################################################################
 <movie>{timestamp} - {datestamp} | Película
@@ -11,7 +11,7 @@
   <b>Simultáneo:</b> <i>{user_streams}</i>
   <b>Dispositivo:</b> <i>{device}</i>
   <b>Plataforma:</b> <i>{platform}</i>
-  <b>Hace:</b> <i>{transcode_decision}</i>
+  <b>Transcodificación:</b> <i>{transcode_decision}</i>
   <b>Vídeo:</b> <i>{video_decision}</i>
   <b>Audio:</b> <i>{audio_decision}</i>
   <b>Resolución:</b> <i>{stream_video_resolution}p</i>
@@ -29,7 +29,7 @@
   <b>Simultáneo:</b> <i>{user_streams}</i> 
   <b>Dispositivo:</b> <i>{device}</i>
   <b>Plataforma:</b> <i>{platform}</i>
-  <b>Hace:</b> <i>{transcode_decision}</i> 
+  <b>Transcodificación:</b> <i>{transcode_decision}</i> 
   <b>Vídeo:</b> <i>{video_decision}</i>
   <b>Audio:</b> <i>{audio_decision}</i>
   <b>Resolución:</b> <i>{stream_video_resolution}p</i>

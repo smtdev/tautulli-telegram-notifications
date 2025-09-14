@@ -64,8 +64,8 @@
 👫  <b>Actores:</b> <i>{actors:[1:5]}</i>
 🎭  <b>Género:</b> <i>{genres}</i>
 ⚙️  <b>Formato archivo:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
-🔗  <b>Enlace a IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
 🔗  <b>Enlace a Trakt:</b> <a href="{trakt_url}">{trakt_url}</a>
+🔗  <b>Enlace a IMDB:</b> <a href="{imdb_url}">{imdb_url}</a>
 🔗  <b>Enlace a TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
 🔗  <b>Enlace a Plex:</b> <a href="{plex_url}">{library_name}</a>
 

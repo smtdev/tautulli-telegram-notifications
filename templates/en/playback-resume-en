@@ -3,7 +3,7 @@
 ###########################################################
 <movie>{timestamp} - {datestamp} | Movie
 
-	<b>{username}</b> resume <b>{title} ({year})</b>.
+	<b>{username}</b> resumed <b>{title} ({year})</b>.
 
 	<b>Device:</b> <i>{device}</i>
 	<b>Platform:</b> <i>{platform}</i>
@@ -14,7 +14,7 @@
 </movie>
 <episode>{timestamp} - {datestamp} | Show
 
-	<b>{username}</b> resume <b>{show_name} ({show_year})</b>.
+	<b>{username}</b> resumed <b>{show_name} ({show_year})</b>.
 
 	<b>Episode:</b> <i>S{season_num}E{episode_num00}</i>
 	<b>Episode title:</b> <i>{episode_name}</i>

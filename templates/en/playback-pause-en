@@ -14,7 +14,7 @@
 </movie>
 <episode>{timestamp} - {datestamp} | Show
 
-	<b>{username}</b> ha pausado <b>{show_name} ({show_year})</b>.
+	<b>{username}</b> paused <b>{show_name} ({show_year})</b>.
 
 	<b>Episode:</b> <i>S{season_num}E{episode_num00}</i>
 	<b>Episode title:</b> <i>{episode_name}</i>
