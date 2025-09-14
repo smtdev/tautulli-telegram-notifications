@@ -4,7 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/smtdev/tautulli-telegram-notifications)
 ![GitHub issues](https://img.shields.io/github/issues/smtdev/tautulli-telegram-notifications)
 
-This repository provides comprehensive notification templates for **all 22 Tautulli triggers**, available in both **Spanish (es)** and **English (en)**. These templates are designed to send rich, informative notifications to your Telegram channels, groups, or private chats whenever events occur on your Plex Media Server.
+This repository provides comprehensive notification templates for **all 21 Tautulli triggers**, available in both **Spanish (es)** and **English (en)**. These templates are designed to send rich, informative notifications to your Telegram channels, groups, or private chats whenever events occur on your Plex Media Server.
 
 ### 🚀 Quick Setup
 
